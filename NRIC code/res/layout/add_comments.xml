@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appcover"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/aaa"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/unknow3"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/your_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/aaa"
+        android:ems="10"
+        android:hint="Feedback"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="  Contact us: Contact@nric.org.uk"
+        android:textColor="@color/Black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/add_commentbutton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/your_email"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/add_commentbutton"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/your_name"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/your_email"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/your_name"
+        android:text="     Email:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/bbbcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/your_name"
+        android:layout_alignBottom="@+id/your_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bbbcc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/your_name"
+        android:text="     Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Black"
+        android:textSize="25dp" />
+
+</RelativeLayout>

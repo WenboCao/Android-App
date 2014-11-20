@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appcover"
+    android:gravity="left"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+	    <TextView
+	        android:id="@+id/email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/name"
+	        android:layout_below="@+id/name"
+	        android:layout_marginTop="35dp"
+	        android:text="Profession"
+	        android:textSize="26dp" />
+
+	    <EditText
+	        android:id="@+id/locationfield"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/location"
+	        android:layout_alignLeft="@+id/spinner1"
+	        android:ems="10"
+	        android:hint="UK/London"
+	        android:singleLine="true" />
+
+	    <TextView
+	        android:id="@+id/profession"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/email"
+	        android:layout_below="@+id/email"
+	        android:layout_marginTop="31dp"
+	        android:text="Email"
+	        android:textSize="26dp" />
+
+	    <TextView
+	        android:id="@+id/location"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/profession"
+	        android:layout_below="@+id/profession"
+	        android:layout_marginTop="32dp"
+	        android:text="Country/City"
+	        android:textSize="26dp" />
+
+	    <EditText
+	        android:id="@+id/namefield"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/name"
+	        android:layout_alignLeft="@+id/professionfield"
+	        android:ems="10"
+	        android:hint="Paul Smith"
+	        android:inputType="textPersonName"
+	        android:singleLine="true" />
+
+	    <EditText
+	        android:id="@+id/emailfield"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/location"
+	        android:layout_alignLeft="@+id/locationfield"
+	        android:ems="10"
+	        android:hint="...@..."
+	        android:inputType="textEmailAddress" />
+
+	    <EditText
+	        android:id="@+id/professionfield"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/profession"
+	        android:layout_alignLeft="@+id/emailfield"
+	        android:ems="10"
+	        android:hint="Doctor"
+	        android:inputType="textPersonName" />
+
+	    <TextView
+	        android:id="@+id/name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="52dp"
+	        android:text="Name"
+	        android:textSize="26dp" />
+
+	    <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/locationfield"
+	        android:layout_marginTop="17dp"
+	        android:layout_toRightOf="@+id/location" />
+
+	    <TextView
+	        android:id="@+id/fond"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/location"
+	        android:layout_alignTop="@+id/spinner1"
+	        android:layout_marginTop="15dp"
+	        android:text="Settings"
+	        android:textSize="26dp" />
+
+	    <Button
+	        android:id="@+id/submit"
+	        style="@android:style/Animation"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_below="@+id/spinner1"
+	        android:layout_marginTop="16dp"
+	        android:layout_toRightOf="@+id/fond"
+	        android:text="Sign Up" />
+
+	  
+
+</RelativeLayout>

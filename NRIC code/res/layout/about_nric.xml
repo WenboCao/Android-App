@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appcover"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/unknow3"
+            android:gravity="center"
+            android:text="About NRIC"
+            android:textSize="26dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:gravity="center"
+        android:text="The National Resource for Infection Control (NRIC) is a digital library hosted by the Department of Computer Science of UCL, bringing together the best available on-line evidence-based, quality-tagged resources on infection prevention and control.NRIC was initially funded and instigated by the Department of Health from 2005 to 2011 in response to recommendations by the National Audit Office report - The Management and Control of Hospital Acquired Infection in Acute NHS Trusts in England. "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/unknow3"
+        android:gravity="center"
+        android:text="About NRIC"
+        android:textSize="24dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="  Copyright©PattyKostkova&amp;NRIC"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
